@@ -1,0 +1,6 @@
+{
+  "name": "Melanie Castaneda Plumbing Bristol",
+  "description": "Luxury plumbing repair, leak detection, water heater service, and precision installations in Bristol, England.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
