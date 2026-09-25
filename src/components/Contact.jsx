@@ -80,7 +80,7 @@ export default function Contact({ selectedService }) {
                   marginBottom: 'var(--space-16)',
                 }}
               >
-                Direct line for quotes, advice, and urgent plumbing visits in Bristol.
+                Direct line for quotes, advice, and urgent plumbing visits in {business.city}.
               </p>
               <Button
                 as="a"
@@ -170,7 +170,7 @@ export default function Contact({ selectedService }) {
                   marginBottom: 'var(--space-8)',
                 }}
               >
-                Bristol Location
+                {business.city} Location
               </span>
               <p
                 style={{

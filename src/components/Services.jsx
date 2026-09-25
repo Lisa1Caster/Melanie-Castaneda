@@ -56,7 +56,7 @@ export default function Services({ onSelectService }) {
         >
           <div>
             <h3 style={{ fontSize: '1.1rem', marginBottom: 'var(--space-4)' }}>
-              Require immediate diagnostic assistance in Bristol?
+              Require immediate diagnostic assistance in {business.city}?
             </h3>
             <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)' }}>
               Direct telephone line open for urgent repairs and scheduled inspections.

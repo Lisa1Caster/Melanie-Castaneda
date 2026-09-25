@@ -27,7 +27,7 @@ export default function ServiceCard({ service, onSelect }) {
         {!imageFailed && service.image ? (
           <img
             src={service.image}
-            alt={`${service.title} in Bristol`}
+            alt={`${service.title} in ${business.city}`}
             referrerPolicy="no-referrer"
             loading="lazy"
             onError={() => setImageFailed(true)}

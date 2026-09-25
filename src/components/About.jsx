@@ -68,7 +68,7 @@ export default function About() {
                   <polyline points="9 22 9 12 15 12 15 22" />
                 </svg>
                 <span style={{ fontSize: '0.9rem', color: 'var(--color-secondary)' }}>
-                  77 Silverhill Road, Bristol BS10 7NS
+                  {business.address.full}
                 </span>
               </div>
             )}

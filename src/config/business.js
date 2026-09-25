@@ -9,13 +9,13 @@ export const business = {
   name: "Melanie Castaneda",
   businessType: "Plumber",
   tagline: "Garage Door Repair & Installation",
-  city: "Bristol",
+  city: "London",
   address: {
-    line: "77 Silverhill Road",
-    city: "Bristol",
+    line: "C/O Tc Citroen Wells Limited, 5th Floor, 3 Dorset Rise",
+    city: "London",
     country: "England",
-    postcode: "BS10 7NS",
-    full: "77 Silverhill Road, Bristol, England, BS10 7NS",
+    postcode: "EC4Y 8EN",
+    full: "C/O Tc Citroen Wells Limited, 5th Floor, 3 Dorset Rise, London, England, EC4Y 8EN",
   },
 
   // Contact channels
@@ -30,8 +30,8 @@ export const business = {
     email: "",
     emailHref: "",
     // Google Maps search query fallback
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=77+Silverhill+Road%2C+Bristol%2C+England%2C+BS10+7NS",
-    serviceAreaNote: "Serving Silverhill Road, BS10, and residences across Bristol",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=C%2FO+Tc+Citroen+Wells+Limited%2C+5th+Floor%2C+3+Dorset+Rise%2C+London%2C+England%2C+EC4Y+8EN",
+    serviceAreaNote: "Serving 3 Dorset Rise, EC4Y, and residences across London",
   },
 
   // Brand style & design tokens
@@ -81,9 +81,9 @@ export const business = {
 
   // Hero Section
   hero: {
-    eyebrow: "Bristol · BS10 · Dedicated Plumbing Services",
-    title: "Precision Plumbing & Installation in Bristol",
-    subtitle: "Prompt diagnostics, refined repairs, and dedicated local plumbing craftsmanship for residential properties throughout Bristol.",
+    eyebrow: "London · EC4Y · Dedicated Plumbing Services",
+    title: "Precision Plumbing & Installation in London",
+    subtitle: "Prompt diagnostics, refined repairs, and dedicated local plumbing craftsmanship for residential properties throughout London.",
     primaryCta: {
       label: "Call Now",
       href: "tel:447985248298",
@@ -92,9 +92,9 @@ export const business = {
       label: "View Services",
       href: "#services",
     },
-    trustBadge: "Based at 77 Silverhill Road, Bristol BS10 7NS",
+    trustBadge: "Based at 3 Dorset Rise, London EC4Y 8EN",
     backgroundImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=80",
-    imageAlt: "Luxury bathroom with clean architectural plumbing fixtures in Bristol",
+    imageAlt: "Luxury bathroom with clean architectural plumbing fixtures in London",
   },
 
   // About Section
@@ -102,11 +102,11 @@ export const business = {
     eyebrow: "The Practice",
     title: "Local plumbing care handled with precision and discretion.",
     paragraphs: [
-      "Operating from Silverhill Road in Bristol, Melanie Castaneda provides dependable, high-standard plumbing repairs and installations for homeowners seeking careful craftsmanship.",
+      "Operating from 3 Dorset Rise in London, Melanie Castaneda provides dependable, high-standard plumbing repairs and installations for homeowners seeking careful craftsmanship.",
       "Every pipe, valve, and fixture is approached with methodical attention to detail. Whether resolving an unexpected leak or fitting new sanitaryware, the focus is always on lasting solutions and a clean workspace."
     ],
     details: [
-      { label: "Location", value: "77 Silverhill Road, Bristol, BS10 7NS" },
+      { label: "Location", value: "C/O Tc Citroen Wells Limited, 5th Floor, 3 Dorset Rise, London, EC4Y 8EN" },
       { label: "Direct Line", value: "+44 7985 248298" },
       { label: "Emergency Support", value: "Emergency plumbing available upon request" },
     ],
@@ -171,7 +171,7 @@ export const business = {
       {
         id: "emergency-plumbing",
         title: "Emergency Plumbing",
-        description: "Urgent response for uncontrolled water ingress, major leaks, and pipe failures in Bristol.",
+        description: "Urgent response for uncontrolled water ingress, major leaks, and pipe failures in London.",
         image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1600&q=80",
       },
       {
@@ -198,8 +198,8 @@ export const business = {
   // Why Choose Us Section
   whyChooseUs: {
     eyebrow: "Local Standards",
-    title: "Why Bristol Residents Turn to Melanie Castaneda",
-    subtitle: "Rooted in Bristol BS10 with direct phone communication, fast local dispatch, and transparent service.",
+    title: "Why London Residents Turn to Melanie Castaneda",
+    subtitle: "Rooted in London EC4Y with direct phone communication, fast local dispatch, and transparent service.",
     points: [
       {
         number: "01",
@@ -208,8 +208,8 @@ export const business = {
       },
       {
         number: "02",
-        title: "Bristol-Based Dispatch",
-        description: "Operating from 77 Silverhill Road for rapid arrival to BS10, Westbury-on-Trym, Henbury, and greater Bristol.",
+        title: "London-Based Dispatch",
+        description: "Operating from 3 Dorset Rise for rapid arrival to EC4, the City, Westminster, and greater London.",
       },
       {
         number: "03",
@@ -222,15 +222,15 @@ export const business = {
   // Testimonials / Reviews (Rendered ONLY if testimonials exist and have real entries)
   testimonials: [],
 
-  // FAQ Section (Genuine questions tailored for local Bristol plumbing customers)
+  // FAQ Section (Genuine questions tailored for local London plumbing customers)
   faq: {
     eyebrow: "Answers",
     title: "Frequently Asked Questions",
-    subtitle: "Clear answers to common questions about plumbing services and booking in Bristol.",
+    subtitle: "Clear answers to common questions about plumbing services and booking in London.",
     items: [
       {
-        question: "How quickly can you attend to an emergency in Bristol?",
-        answer: "Being situated on Silverhill Road in BS10 allows for prompt arrival across northern and central Bristol. For pressing leaks or sudden water loss, call +44 7985 248298 immediately for rapid response.",
+        question: "How quickly can you attend to an emergency in London?",
+        answer: "Being situated at 3 Dorset Rise in EC4Y allows for prompt arrival across central and greater London. For pressing leaks or sudden water loss, call +44 7985 248298 immediately for rapid response.",
       },
       {
         question: "Do you offer diagnostic leak detection?",
@@ -241,8 +241,8 @@ export const business = {
         answer: "Yes. You can message photos or short videos of your dripping tap, boiler issue, or pipework to +44 7985 248298 for quick initial advice before a site visit.",
       },
       {
-        question: "What areas of Bristol do you cover?",
-        answer: "All services operate out of 77 Silverhill Road (BS10 7NS), covering Bristol and surrounding neighborhoods across North Bristol, Southmead, Clifton, and Henleaze.",
+        question: "What areas of London do you cover?",
+        answer: "All services operate out of 3 Dorset Rise (EC4Y 8EN), covering central London and surrounding neighborhoods across the City, Westminster, Southwark, Camden, and Greater London.",
       },
     ],
   },
@@ -270,7 +270,7 @@ export const business = {
   // Footer Section
   footer: {
     copyright: "All rights reserved.",
-    locationText: "77 Silverhill Road, Bristol, England, BS10 7NS",
+    locationText: "C/O Tc Citroen Wells Limited, 5th Floor, 3 Dorset Rise, London, England, EC4Y 8EN",
     note: "Professional plumbing repair & domestic installations.",
   },
 };
